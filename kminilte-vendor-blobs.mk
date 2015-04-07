@@ -60,9 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/kminilte/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
     vendor/samsung/kminilte/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
-    vendor/samsung/kminilte/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/samsung/kminilte/proprietary/vendor/lib/hw/keystore.exynos3.so:system/vendor/lib/hw/keystore.exynos3.so \
-    vendor/samsung/kminilte/proprietary/vendor/lib/hw/lights.exynos3.so:system/vendor/lib/hw/lights.exynos3.so \
     vendor/samsung/kminilte/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/kminilte/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/kminilte/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
