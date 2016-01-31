@@ -138,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/kminilte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/kminilte/proprietary/lib/hw/audio.vendor.universal3470.so:system/lib/hw/audio.vendor.universal3470.so \
     vendor/samsung/kminilte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
