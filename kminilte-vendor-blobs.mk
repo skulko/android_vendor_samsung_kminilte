@@ -132,10 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/kminilte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/kminilte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/kminilte/proprietary/lib/hw/sensors.universal3470.so:system/lib/hw/sensors.universal3470.so \
-    vendor/samsung/kminilte/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
-    vendor/samsung/kminilte/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-    vendor/samsung/kminilte/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/samsung/kminilte/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
     vendor/samsung/kminilte/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
