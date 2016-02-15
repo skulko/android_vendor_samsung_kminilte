@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/hw/camera.universal3470.so:system/lib/hw/camera.universal3470.so \
     vendor/samsung/kminilte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/kminilte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/kminilte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/kminilte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/kminilte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/kminilte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/kminilte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
