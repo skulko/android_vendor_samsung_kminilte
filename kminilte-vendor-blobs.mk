@@ -146,4 +146,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/lib_SamsungRec_V04003.so:system/lib/lib_SamsungRec_V04003.so \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_AudioZoom_v100.so:system/lib/lib_Samsung_AudioZoom_v100.so \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/kminilte/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so
+    vendor/samsung/kminilte/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
+    vendor/samsung/kminilte/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/kminilte/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    vendor/samsung/kminilte/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/kminilte/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/kminilte/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/kminilte/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
