@@ -21,8 +21,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/kminilte/proprietary/lib/libexynosfimc.so:system/lib/libexynosfimc.so \
     vendor/samsung/kminilte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4334.hcd:system/vendor/firmware/bcm4334.hcd \
-    vendor/samsung/kminilte/proprietary/vendor/firmware/BT_FW_VER_BCM4334B0_002.001.013.1792.1803_K_Mini.hcd:system/vendor/firmware/BT_FW_VER_BCM4334B0_002.001.013.1792.1803_K_Mini.hcd \
+    vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4334_V1831.2468.hcd:system/vendor/firmware/bcm4334_V1831.2468.hcd \
+    vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4339_V1831.2468.hcd:system/vendor/firmware/bcm4339_V1831.2468.hcd \
     vendor/samsung/kminilte/proprietary/lib/hw/camera.universal3470.so:system/lib/hw/camera.universal3470.so \
     vendor/samsung/kminilte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/kminilte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -58,20 +58,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/kminilte/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
     vendor/samsung/kminilte/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
-    vendor/samsung/kminilte/proprietary/vendor/lib/hw/keystore.exynos3.so:system/vendor/lib/hw/keystore.exynos3.so \
+    vendor/samsung/kminilte/proprietary/lib/hw/keystore.exynos3470.so:system/lib/hw/keystore.exynos3470.so \
     vendor/samsung/kminilte/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/kminilte/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/kminilte/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
+    vendor/samsung/kminilte/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
     vendor/samsung/kminilte/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
     vendor/samsung/kminilte/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
     vendor/samsung/kminilte/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
     vendor/samsung/kminilte/proprietary/media/battery_error.spi:system/media/battery_error.spi \
     vendor/samsung/kminilte/proprietary/media/particle_intro.spi:system/media/particle_intro.spi \
     vendor/samsung/kminilte/proprietary/media/particle_loop.spi:system/media/particle_loop.spi \
-    vendor/samsung/kminilte/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
     vendor/samsung/kminilte/proprietary/media/percentage.spi:system/media/percentage.spi \
     vendor/samsung/kminilte/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
     vendor/samsung/kminilte/proprietary/media/battery_low.spi:system/media/battery_low.spi \
+    vendor/samsung/kminilte/proprietary/media/dock_error.spi:system/media/dock_error.spi \
     vendor/samsung/kminilte/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
     vendor/samsung/kminilte/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
     vendor/samsung/kminilte/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
@@ -101,10 +102,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+    vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffff000000000000000000000018.tlbin:system/app/mcRegistry/ffffffff000000000000000000000018.tlbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+    vendor/samsung/kminilte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/kminilte/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     vendor/samsung/kminilte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/kminilte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
@@ -123,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/kminilte/proprietary/bin/at_distributor:system/bin/at_distributor \
-    vendor/samsung/kminilte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/kminilte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/kminilte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/kminilte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
