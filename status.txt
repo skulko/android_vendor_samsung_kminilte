@@ -1,24 +1,12 @@
 KK-Libs:
-./vendor/lib/libWVStreamControlAPI_L1.so
-./vendor/lib/mediadrm/libwvdrmengine.so
 ./vendor/lib/libwvm.so
-./vendor/lib/libwvdrm_L1.so
 
-./bin/smdexe
-./bin/mfgloader
 ./bin/macloader
-./bin/wlandutservice
 ./lib/libfactoryutil.so
 
-./bin/rild
-./lib/libril.so
 ./lib/libsec-ril.so
-./lib/libsecril-client.so
 ./lib/libatparser.so
 ./bin/at_distributor
-./lib/libomission_avoidance.so
-
-./csc/sales_code.dat
 
 ./etc/ExynosOMXReg.conf
 ./lib/libExynosOMXMp4vd.so
@@ -34,14 +22,6 @@ KK-Libs:
 ./lib/omx/libOMX.Exynos.AVC.Encoder.so
 ./lib/omx/libOMX.Exynos.MPEG4.Decoder.so
 
-./lib/libstagefrighthw.so
-./lib/libstagefright_hdcp.so
-./lib/libhdcp2.so
-./lib/libion_exynos.so
-./lib/libdrmdecrypt.so
-./lib/libhwjpeg.so
-./lib/libsecnativefeature.so
-
 ./lib/hw/audio.primary.universal3470.so
 ./lib/libsamsungRecord_zoom.so
 ./lib/lib_Samsung_AudioZoom_v100.so
@@ -54,28 +34,15 @@ KK-Libs:
 ./lib/libsamsungRecord.so
 ./lib/lib_SamsungRec_V04003.so
 
-./lib/hw/gralloc.exynos3.so
 ./vendor/lib/hw/hwcomposer.exynos3.so
-./lib/libMali.so
-./lib/egl/libGLESv1_CM_mali.so
-./lib/egl/libEGL_mali.so
-./lib/egl/libGLESv2_mali.so
-./lib/libExynosIPService.so
 ./lib/libdisplay.so
 ./lib/libdisplaymodule.so
 ./lib/libvirtualdisplay.so
 ./lib/libvirtualdisplaymodule.so
-./lib/libexynosfimc.so
-./lib/libExynosHWCService.so
-./lib/libexynosutils.so
-./lib/libexynosv4l2.so
-./lib/libfimg.so
 ./lib/libhdmi.so
 ./lib/libhdmimodule.so
 ./lib/libhwcutils.so
 ./lib/libhwcutilsmodule.so
-./lib/libmpp.so
-./lib/libcsc.so
 
 
 LP-Libs:
@@ -114,3 +81,28 @@ LP-Libs:
 ./etc/srm.bin
 ./etc/plmn_delta.bin
 ./etc/plmn_se13.bin
+
+./lib/hw/gralloc.exynos3.so
+./lib/egl/libGLESv1_CM_mali.so
+./lib/egl/libEGL_mali.so
+./lib/egl/libGLESv2_mali.so
+./lib/libExynosIPService.so
+./lib/libExynosHWCService.so
+./lib/libcsc.so
+./lib/libMali.so
+./lib/libexynosfimc.so
+./lib/libexynosutils.so
+./lib/libexynosv4l2.so
+./lib/libfimg.so
+./lib/libmpp.so
+./lib/libhwjpeg.so
+./lib/libstagefrighthw.so
+./lib/libstagefright_hdcp.so
+./lib/libsecnativefeature.so
+./lib/libomission_avoidance.so
+./lib/libhdcp2.so
+./lib/libion_exynos.so
+./lib/libdrmdecrypt.so
+./vendor/lib/libWVStreamControlAPI_L1.so
+./vendor/lib/mediadrm/libwvdrmengine.so
+./vendor/lib/libwvdrm_L1.so
