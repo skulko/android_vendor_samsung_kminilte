@@ -1,13 +1,6 @@
 KK-Libs:
 ./vendor/lib/libwvm.so
 
-./bin/macloader
-./lib/libfactoryutil.so
-
-./lib/libsec-ril.so
-./lib/libatparser.so
-./bin/at_distributor
-
 ./etc/ExynosOMXReg.conf
 ./lib/libExynosOMXMp4vd.so
 ./lib/libExynosOMX263d.so
@@ -28,11 +21,13 @@ KK-Libs:
 ./lib/lib_Samsung_Resampler.so
 ./lib/libsamsungSoundbooster.so
 ./lib/lib_Samsung_SB_AM_for_ICS_v04004.so
-./lib/libaudio-ril.so
 ./lib/libsamsungRecord_ns.so
 ./lib/lib_DNSe_NRSS_ver226.so
 ./lib/libsamsungRecord.so
 ./lib/lib_SamsungRec_V04003.so
+
+./lib/libaudio-ril.so
+./lib/libsec-ril.so
 
 ./vendor/lib/hw/hwcomposer.exynos3.so
 ./lib/libdisplay.so
@@ -44,8 +39,8 @@ KK-Libs:
 ./lib/libhwcutils.so
 ./lib/libhwcutilsmodule.so
 
-
 LP-Libs:
+
 ./lib/libexynoscamera.so
 ./lib/hw/camera.universal3470.so
 ./app/mcRegistry/*.tlbin
@@ -81,7 +76,6 @@ LP-Libs:
 ./etc/srm.bin
 ./etc/plmn_delta.bin
 ./etc/plmn_se13.bin
-
 ./lib/hw/gralloc.exynos3.so
 ./lib/egl/libGLESv1_CM_mali.so
 ./lib/egl/libEGL_mali.so
@@ -106,3 +100,7 @@ LP-Libs:
 ./vendor/lib/libWVStreamControlAPI_L1.so
 ./vendor/lib/mediadrm/libwvdrmengine.so
 ./vendor/lib/libwvdrm_L1.so
+./lib/libfactoryutil.so
+./lib/libatparser.so
+./bin/macloader
+./bin/at_distributor
