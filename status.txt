@@ -25,9 +25,7 @@ KK-Libs:
 ./lib/lib_DNSe_NRSS_ver226.so
 ./lib/libsamsungRecord.so
 ./lib/lib_SamsungRec_V04003.so
-
 ./lib/libaudio-ril.so
-./lib/libsec-ril.so
 
 ./vendor/lib/hw/hwcomposer.exynos3.so
 ./lib/libdisplay.so
@@ -104,3 +102,4 @@ LP-Libs:
 ./lib/libatparser.so
 ./bin/macloader
 ./bin/at_distributor
+./lib/libsec-ril.so
