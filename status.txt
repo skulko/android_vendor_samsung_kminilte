@@ -15,18 +15,6 @@ KK-Libs:
 ./lib/omx/libOMX.Exynos.AVC.Encoder.so
 ./lib/omx/libOMX.Exynos.MPEG4.Decoder.so
 
-./lib/hw/audio.primary.universal3470.so
-./lib/libsamsungRecord_zoom.so
-./lib/lib_Samsung_AudioZoom_v100.so
-./lib/lib_Samsung_Resampler.so
-./lib/libsamsungSoundbooster.so
-./lib/lib_Samsung_SB_AM_for_ICS_v04004.so
-./lib/libsamsungRecord_ns.so
-./lib/lib_DNSe_NRSS_ver226.so
-./lib/libsamsungRecord.so
-./lib/lib_SamsungRec_V04003.so
-./lib/libaudio-ril.so
-
 ./vendor/lib/hw/hwcomposer.exynos3.so
 ./lib/libdisplay.so
 ./lib/libdisplaymodule.so
@@ -103,3 +91,14 @@ LP-Libs:
 ./bin/macloader
 ./bin/at_distributor
 ./lib/libsec-ril.so
+./lib/hw/audio.primary.universal3470.so
+./lib/lib_DNSe_NRSS_ver226.so
+./lib/lib_Samsung_SB_AM_for_ICS_v04004.so
+./lib/lib_Samsung_AudioZoom_v100.so
+./lib/lib_Samsung_Resampler.so
+./lib/lib_SamsungRec_V04003.so
+./lib/libsamsungRecord_zoom.so
+./lib/libsamsungRecord_ns.so
+./lib/libsamsungRecord.so
+./lib/libsamsungSoundbooster.so
+./lib/libaudio-ril.so
