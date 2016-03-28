@@ -1,20 +1,6 @@
 KK-Libs:
 ./vendor/lib/libwvm.so
 
-./etc/ExynosOMXReg.conf
-./lib/libExynosOMXMp4vd.so
-./lib/libExynosOMX263d.so
-./lib/libExynosOMXCore.so
-./lib/libExynosOMX264d.so
-./lib/libExynosOMXCmn.so
-./lib/libExynosOMX_Core.so
-./lib/libExynosOMXVc1d.so
-./lib/libExynosOMX_Resourcemanager.so
-./lib/omx/libOMX.Exynos.AVC.Decoder.so
-./lib/omx/libOMX.Exynos.MPEG4.Encoder.so
-./lib/omx/libOMX.Exynos.AVC.Encoder.so
-./lib/omx/libOMX.Exynos.MPEG4.Decoder.so
-
 ./vendor/lib/hw/hwcomposer.exynos3.so
 ./lib/libdisplay.so
 ./lib/libdisplaymodule.so
@@ -102,3 +88,16 @@ LP-Libs:
 ./lib/libsamsungRecord.so
 ./lib/libsamsungSoundbooster.so
 ./lib/libaudio-ril.so
+./etc/ExynosOMXReg.conf
+./lib/libExynosOMXMp4vd.so
+./lib/libExynosOMX263d.so
+./lib/libExynosOMXCore.so
+./lib/libExynosOMX264d.so
+./lib/libExynosOMXCmn.so
+./lib/libExynosOMX_Core.so
+./lib/libExynosOMXVc1d.so
+./lib/libExynosOMX_Resourcemanager.so
+./lib/omx/libOMX.Exynos.AVC.Decoder.so
+./lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+./lib/omx/libOMX.Exynos.AVC.Encoder.so
+./lib/omx/libOMX.Exynos.MPEG4.Decoder.so
