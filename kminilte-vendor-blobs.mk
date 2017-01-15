@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4334_V1831.2468.hcd:system/vendor/firmware/bcm4334_V1831.2468.hcd \
     vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4339_V1831.2468.hcd:system/vendor/firmware/bcm4339_V1831.2468.hcd \
-    vendor/samsung/kminilte/proprietary/lib/hw/camera.universal3470.so:system/lib/hw/camera.universal3470.so \
     vendor/samsung/kminilte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/kminilte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/kminilte/proprietary/etc/srm.bin:system/etc/srm.bin \
@@ -34,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/kminilte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/kminilte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/kminilte/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/kminilte/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/kminilte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/kminilte/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -110,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    vendor/samsung/kminilte/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     vendor/samsung/kminilte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/kminilte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/kminilte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
@@ -123,7 +122,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/kminilte/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/kminilte/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     vendor/samsung/kminilte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    vendor/samsung/kminilte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/kminilte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/kminilte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/kminilte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
@@ -137,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/kminilte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/kminilte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/kminilte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
