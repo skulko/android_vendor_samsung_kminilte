@@ -1,24 +1,5 @@
-vendor/firmware/fimc_is_fw2.bin
-vendor/firmware/setfile_4h5.bin
-vendor/firmware/sec_s3fwrn5_firmware.bin
-vendor/firmware/setfile_6b2.bin
-vendor/firmware/mfc_fw.bin
-vendor/firmware/setfile_6a3.bin
-etc/sec_s3fwrn5_rfreg.bin
-etc/srm.bin
-
-lib/libcsc.so
-lib/libexynosutils.so
-lib/libmaet.so
-lib/libacdapi_clb.so
-lib/hw/keystore.exynos3470.so
 lib/hw/nfc_nci.universal3470.so
-lib/libdrmdecrypt.so
 lib/libExynosIPService.so
-
-vendor/firmware/bcm4334_V1837.2645.hcd
-vendor/firmware/bcm4339_V1831.2468.hcd
-
 
 lib/hw/camera.universal3470.so
 lib/libexynoscamera.so
@@ -26,31 +7,37 @@ lib/libexynosv4l2.so
 
 lib/libhwjpeg.so
 lib/libion_exynos.so
-lib/libhwcutils.so
-lib/libhwcutilsmodule.so
 lib/hw/gralloc.exynos3.so
 lib/hw/hwcomposer.exynos3.so
 lib/libExynosHWCService.so
 lib/libfimg.so
-lib/libdisplay.so
-lib/libvirtualdisplaymodule.so
 lib/libstagefright_hdcp.so
-lib/libdisplaymodule.so
+lib/libexynosscaler.so
+lib/libexynosfimc.so
 lib/libMali.so
 lib/libhdcp2.so
+lib/libdisplay.so
+lib/libdisplaymodule.so
 lib/libvirtualdisplay.so
-lib/libhdmimodule.so
-lib/libexynosscaler.so
+lib/libvirtualdisplaymodule.so
+lib/libhwcutils.so
+lib/libhwcutilsmodule.so
 lib/libhdmi.so
-lib/libexynosfimc.so
+lib/libhdmimodule.so
+
+lib/libexynosutils.so
 
 
 staging:
-
+lib/libcsc.so
+lib/libmaet.so
+lib/libacdapi_clb.so
+lib/libsxqk_skia.so
+lib/hw/keystore.exynos3470.so
+lib/libdrmdecrypt.so
 
 review:
 bin/lpm
-lib/libsxqk_skia.so
 media/wireless_left.spi
 media/dock_error.spi
 media/wireless_right.spi
@@ -159,4 +146,15 @@ etc/gps.xml
 etc/gps.conf
 bin/gps.cer
 lib/libwrappergps.so
+
+etc/srm.bin
+etc/sec_s3fwrn5_rfreg.bin
+vendor/firmware/bcm4334_V1837.2645.hcd
+vendor/firmware/bcm4339_V1831.2468.hcd
+vendor/firmware/fimc_is_fw2.bin
+vendor/firmware/sec_s3fwrn5_firmware.bin
+vendor/firmware/mfc_fw.bin
+vendor/firmware/setfile_4h5.bin
+vendor/firmware/setfile_6b2.bin
+vendor/firmware/setfile_6a3.bin
 

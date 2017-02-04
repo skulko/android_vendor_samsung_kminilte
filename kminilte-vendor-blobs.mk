@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libexynosfimc.so:system/lib/libexynosfimc.so \
     vendor/samsung/kminilte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
     vendor/samsung/kminilte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4334_V1831.2468.hcd:system/vendor/firmware/bcm4334_V1831.2468.hcd \
+    vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4334_V1837.2645.hcd:system/vendor/firmware/bcm4334_V1837.2645.hcd \
     vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4339_V1831.2468.hcd:system/vendor/firmware/bcm4339_V1831.2468.hcd \
     vendor/samsung/kminilte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/kminilte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
