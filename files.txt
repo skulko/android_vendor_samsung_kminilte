@@ -29,12 +29,6 @@ lib/libexynosutils.so
 
 
 staging:
-lib/libcsc.so
-lib/libmaet.so
-lib/libacdapi_clb.so
-lib/libsxqk_skia.so
-lib/hw/keystore.exynos3470.so
-lib/libdrmdecrypt.so
 
 review:
 bin/lpm
@@ -54,6 +48,13 @@ media/incompatible_charger.spi
 media/battery_temperature_limit.spi
 
 Done:
+lib/libcsc.so
+lib/libmaet.so
+lib/libacdapi_clb.so
+lib/libsxqk_skia.so
+lib/hw/keystore.exynos3470.so
+lib/libdrmdecrypt.so
+
 lib/libsecnativefeature.so
 lib/libgdmcprov.so
 lib/libfactoryutil.so
