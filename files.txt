@@ -30,7 +30,7 @@ lib/libexynosutils.so
 
 staging:
 
-review:
+Done:
 bin/lpm
 media/wireless_left.spi
 media/dock_error.spi
@@ -47,7 +47,6 @@ media/wave_loop.spi
 media/incompatible_charger.spi
 media/battery_temperature_limit.spi
 
-Done:
 lib/libcsc.so
 lib/libmaet.so
 lib/libacdapi_clb.so
