@@ -65,19 +65,33 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/kminilte/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     vendor/samsung/kminilte/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
-    vendor/samsung/kminilte/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
-    vendor/samsung/kminilte/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
+    vendor/samsung/kminilte/proprietary/media/afc_logo.spi:system/media/afc_logo.spi \
+    vendor/samsung/kminilte/proprietary/media/affordance_glow_afc.spi:system/media/affordance_glow_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/affordance_glow.spi:system/media/affordance_glow.spi \
     vendor/samsung/kminilte/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
     vendor/samsung/kminilte/proprietary/media/battery_error.spi:system/media/battery_error.spi \
-    vendor/samsung/kminilte/proprietary/media/particle_intro.spi:system/media/particle_intro.spi \
-    vendor/samsung/kminilte/proprietary/media/particle_loop.spi:system/media/particle_loop.spi \
-    vendor/samsung/kminilte/proprietary/media/percentage.spi:system/media/percentage.spi \
-    vendor/samsung/kminilte/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
     vendor/samsung/kminilte/proprietary/media/battery_low.spi:system/media/battery_low.spi \
-    vendor/samsung/kminilte/proprietary/media/dock_error.spi:system/media/dock_error.spi \
-    vendor/samsung/kminilte/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
-    vendor/samsung/kminilte/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
+    vendor/samsung/kminilte/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
     vendor/samsung/kminilte/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
+    vendor/samsung/kminilte/proprietary/media/dock_error.spi:system/media/dock_error.spi \
+    vendor/samsung/kminilte/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
+    vendor/samsung/kminilte/proprietary/media/percentage.spi:system/media/percentage.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_A1_afc.spi:system/media/wireless_A1_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_A1.spi:system/media/wireless_A1.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_A2_afc.spi:system/media/wireless_A2_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_A2.spi:system/media/wireless_A2.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_B1_afc.spi:system/media/wireless_B1_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_B1.spi:system/media/wireless_B1.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_B2_afc.spi:system/media/wireless_B2_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_B2.spi:system/media/wireless_B2.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_C1_afc.spi:system/media/wireless_C1_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_C1.spi:system/media/wireless_C1.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_C2_afc.spi:system/media/wireless_C2_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_C2.spi:system/media/wireless_C2.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_C3_afc.spi:system/media/wireless_C3_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_C3.spi:system/media/wireless_C3.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_C4_afc.spi:system/media/wireless_C4_afc.spi \
+    vendor/samsung/kminilte/proprietary/media/wireless_C4.spi:system/media/wireless_C4.spi \
     vendor/samsung/kminilte/proprietary/vendor/firmware/fimc_is_fw2.bin:system/vendor/firmware/fimc_is_fw2.bin \
     vendor/samsung/kminilte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/kminilte/proprietary/vendor/firmware/setfile_4h5.bin:system/vendor/firmware/setfile_4h5.bin \
