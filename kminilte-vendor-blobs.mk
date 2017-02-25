@@ -146,6 +146,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/kminilte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/kminilte/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
+    vendor/samsung/kminilte/proprietary/etc/alp_cal.dat:system/etc/alp_cal.dat \
+    vendor/samsung/kminilte/proprietary/etc/param.dat:system/etc/param.dat \
     vendor/samsung/kminilte/proprietary/lib/libHrmEol.so:system/lib/libHrmEol.so \
     vendor/samsung/kminilte/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
