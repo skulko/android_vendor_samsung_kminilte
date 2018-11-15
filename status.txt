@@ -1,10 +1,4 @@
 LP-Libs:
-lib/libfpasmtztransport.so
-lib/libvalAuth.so
-lib/libvcsfp.so
-lib/libvfmClient.so
-lib/libvfmtztransport.so
-
 lib/hw/nfc_nci.universal3470.so
 lib/libExynosIPService.so
 
