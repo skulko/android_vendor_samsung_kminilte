@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/kminilte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/kminilte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/kminilte/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/kminilte/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/kminilte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/kminilte/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -234,4 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
     vendor/samsung/kminilte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     vendor/samsung/kminilte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+
+
 
