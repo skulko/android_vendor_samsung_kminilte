@@ -145,11 +145,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/etc/param.dat:system/etc/param.dat \
     vendor/samsung/kminilte/proprietary/lib/libHrmEol.so:system/lib/libHrmEol.so \
     vendor/samsung/kminilte/proprietary/bin/macloader:system/bin/macloader \
-    vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
-    vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
-    vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/kminilte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/kminilte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
+    vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/vendor/etc/wifi/bcmdhd_apsta.bin_b2 \
+    vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/vendor/etc/wifi/bcmdhd_p2p.bin_b2 \
+    vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/vendor/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/kminilte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/kminilte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
